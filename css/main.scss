@@ -1,0 +1,32 @@
+@import './header';
+@import './container';
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+// $primaryBtn : #f46eda;
+body {
+    font-family: 'Times';
+}
+
+// $primaryBtn : #f46eda;
+// .header {
+//   text-align: center;
+//   background: lightblue;
+//   button {
+//       background-color: $primaryBtn;
+//       @include border-radius(20%);
+//   }
+// }
+// .container{
+//   background: #e6e6e6;
+//   text-align: right;
+//   padding-right: 50px;
+//      button {
+//       background-color: $primaryBtn;
+//       @include border-radius(40%);
+//   }
+// }

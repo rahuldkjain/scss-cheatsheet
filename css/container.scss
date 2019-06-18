@@ -1,0 +1,32 @@
+@import './header';
+.container {
+    @extend .header;
+    background: #e6e6e6;
+    text-align: right;
+    margin: 2px 50px;
+    padding: 5px 10px;
+}
+
+//for loop
+// @for $index from 1 through 3 {
+// 	#input-#{$index} {
+// 		width: 70px * $index;
+// 	} 
+// }
+$index: 3;
+@while $index>0 {
+    #input-#{$index} {
+        width: 70px * $index;
+    }
+    $index: $index - 1;
+}
+
+//each iteration
+$inputs: input-1,
+input-2,
+input-3;
+@each $input in $inputs {
+    ##{$input} {
+        font-size: 18px;
+    }
+}

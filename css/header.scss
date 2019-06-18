@@ -1,0 +1,10 @@
+$primaryBtn: #f46eda;
+.header {
+    text-align: center;
+    background: lightblue;
+    font-size: 14px;
+    button {
+        background-color: $primaryBtn;
+        padding: 10px 10px;
+    }
+}

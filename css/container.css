@@ -1,0 +1,42 @@
+.header, .container {
+  text-align: center;
+  background: lightblue;
+  font-size: 14px;
+}
+
+.header button, .container button {
+  background-color: #f46eda;
+  padding: 10px 10px;
+}
+
+.container {
+  background: #e6e6e6;
+  text-align: right;
+  margin: 2px 50px;
+  padding: 5px 10px;
+}
+
+#input-3 {
+  width: 210px;
+}
+
+#input-2 {
+  width: 140px;
+}
+
+#input-1 {
+  width: 70px;
+}
+
+#input-1 {
+  font-size: 18px;
+}
+
+#input-2 {
+  font-size: 18px;
+}
+
+#input-3 {
+  font-size: 18px;
+}
+/*# sourceMappingURL=container.css.map */
